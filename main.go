@@ -5,7 +5,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/sescobb27/festinare_stadistics/database"
+	"github.com/sescobb27/festinare_statistics/database"
 )
 
 func signalHandler() {
@@ -21,4 +21,8 @@ func signalHandler() {
 	println("Closing DB Connection")
 	database.Session.Close()
 	os.Exit(0)
+}
+
+func main() {
+
 }

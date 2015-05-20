@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-const EXPIRED_TIMES = []string{"day", "days", "month", "months"}
+var EXPIRED_TIMES = [4]string{"day", "days", "month", "months"}
 
 // time.Now() => Thu, 12 Mar 2015 21:17:33 -0500
 // plan: {

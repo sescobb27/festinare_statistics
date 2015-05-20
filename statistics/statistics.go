@@ -3,7 +3,7 @@ package statistics
 import (
 	"time"
 
-	"github.com/sescobb27/festinare_stadistics/models"
+	"github.com/sescobb27/festinare_statistics/models"
 )
 
 // NumberOfRedeemedDiscounts Returns the number of redeemed discounts
@@ -18,7 +18,7 @@ func GroupByCategoryAndCount() {
 
 // CompareCategories Returns in order (More Redeemed to Less Redeemed) the categories
 func CompareCategories(categories []*models.Category) []*models.Category {
-
+	return []*models.Category{}
 }
 
 func GetWeekDayForMostRedeems() {
